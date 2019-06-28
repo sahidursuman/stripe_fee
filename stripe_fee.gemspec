@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["suman5040@gmail.com"]
 
   spec.summary       = %q{A ruby gem for calculating total charge amount with stripe processing fee.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/sahidursuman/stripe_fee"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.
