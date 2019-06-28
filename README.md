@@ -20,8 +20,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-StripeFee::Calculator.new(amount: 10) # 1061
-StripeFee::Calculator.new(amount: 100) # 10330
+StripeFee::Calculator.new(amount: 10).charge_amount_in_cents # 1061
+StripeFee::Calculator.new(amount: 100).charge_amount_in_cents # 10330
 ```
 
 ## Development

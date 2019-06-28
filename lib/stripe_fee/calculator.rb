@@ -11,7 +11,7 @@ module StripeFee
     end
 
     def validate!
-      raise ::AmountError unless @amount.to_f
+      raise ::AmountError unless @amount.to_f && @amount.to_f > 0
       raise ::CurrencyError unless @currency == 'usd'
     end
 
